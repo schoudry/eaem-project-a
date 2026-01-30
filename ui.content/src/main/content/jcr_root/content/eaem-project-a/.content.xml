@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:allowedTemplates="[/conf/eaem-project-a/settings/wcm/templates/(?!xf-).*]"
+        cq:conf="/conf/eaem-project-a"
+        cq:redirectTarget="/content/eaem-project-a/us/en"
+        cq:template="/conf/eaem-project-a/settings/wcm/templates/page-content"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="AEM GIT Sub Module Project A"
+        sling:configRef="/conf/eaem-project-a"
+        sling:redirect="{Boolean}true"
+        sling:redirectStatus="{Long}302"
+        sling:resourceType="eaem-project-a/components/page">
+        <image jcr:primaryType="nt:unstructured">
+            <file/>
+        </image>
+    </jcr:content>
+    <us/>
+</jcr:root>
